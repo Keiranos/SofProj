@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+@font-face {
+    font-family: 'StrongConcrete-Bold';
+    src: url("./StrongConcrete-Bold by freeject.net/StrongConcrete-Bold.otf") format('opentype');
+}
+
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec7d26b1-d557-47c1-a877-6050004d2fc2/dbb7hcs-1f9e8f0a-c4c7-4fc9-baf6-9e075ce86e30.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWM3ZDI2YjEtZDU1Ny00N2MxLWE4NzctNjA1MDAwNGQyZmMyXC9kYmI3aGNzLTFmOWU4ZjBhLWM0YzctNGZjOS1iYWY2LTllMDc1Y2U4NmUzMC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.CQJpDNQVJCrDzz53ZDRjBm-4t6s6W3SR6S1Yp9aeWvg");
+    background-size: cover;
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-family: 'StrongConcrete-Bold';
+    margin: 1%;
+    color: #fcee09;
+}
+
+.button{
+    border: 0;
+    background-color: #fcee09;
+    color: #050a0e;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-family: Tomorrow, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.logo{
+    position: absolute;
+    left: 10;
+    top: 10;
+    height: 150px;
+    width: 150px;
+}
+
+
