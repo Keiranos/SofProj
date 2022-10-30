@@ -46,4 +46,13 @@ h1{
     width: 150px;
 }
 
+p{
+    position: relative;
+    color:#fcee09;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    font-family: Tomorrow, sans-serif;
+    font-weight: 550;
+}
 
