@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'StrongConcrete-Bold';
+    src: url("./StrongConcrete-Bold by freeject.net/StrongConcrete-Bold.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url("../Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url("../Roboto/Roboto-Bold.ttf")
+}
+
+h1{
+	font-family: 'Roboto-Bold';
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 3%;
+	font-size: 60px;
+	color: #242423;
+	padding-top: 2%;
+}
+
+.header{
+	overflow: hidden;
+	width:auto;
+	height: 165px;
+	background-color: #efd34e;
+	position: 0 top;
+	margin: 0 auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+body{
+	background-color: #333533;
+	margin: 0 auto;
+}

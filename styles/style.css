@@ -7,12 +7,12 @@
 
 @font-face {
 	font-family: 'Roboto-Light';
-	src: url("./Roboto/Roboto-Light.ttf");
+	src: url("../Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
 	font-family: 'Roboto-Bold';
-	src: url("./Roboto/Roboto-Bold.ttf")
+	src: url("../Roboto/Roboto-Bold")
 }
 
 
@@ -71,8 +71,6 @@ h1{
 
 .button{
     border: 0;
-    background-color: #fcee09;
-    color: #050a0e;
     outline: none;
     cursor: pointer;
     padding: 20px 20px;
@@ -81,6 +79,8 @@ h1{
     text-transform: uppercase;
     justify-content: center;
     margin: 0 auto;
+    height: 50px;
+    width: 50px;
 }
 
 .logo{
