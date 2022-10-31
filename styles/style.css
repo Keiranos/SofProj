@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+@font-face {
+    font-family: 'StrongConcrete-Bold';
+    src: url("./StrongConcrete-Bold by freeject.net/StrongConcrete-Bold.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url("./Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url("./Roboto/Roboto-Bold.ttf")
+}
+
+
+.top{
+	overflow: auto;
+	width:auto;
+	height: 165px;
+	background-color: #efd34e;
+	position: 0 top;
+	margin: 0 auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container{
+    overflow: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.MainLogo{
+	height: 246px;
+	width: 1500px;
+	justify-content: center;
+	padding-left: 15%;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+h3{
+	color: #EDF1E5;
+	font-family: 'Roboto-Bold';
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 3%;
+	font-size: 60px;
+}
+
+h2{
+	color: #242423;
+	text-align: center;
+	font-family: 'Roboto-Bold';
+	font-size:40px;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'StrongConcrete-Bold';
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    color: #fcee09;
+}
+
+.button{
+    border: 0;
+    background-color: #fcee09;
+    color: #050a0e;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    font-family: Tomorrow, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    height: 125px;
+    width: 125px;
+}
+
+p{
+    position: relative;
+    color:#fcee09;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    font-family: Roboto-Light;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+body {
+	background-color: #333533;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	max-height: 100%;
+}
