@@ -27,7 +27,7 @@
 }
 
 .container{
-    overflow: auto;
+    overflow: hidden;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -110,4 +110,5 @@ body {
 	margin: 0 auto;
 	background-image: url("../images/background.png");
 	max-height: 100%;
+	overflow: hidden;
 }
