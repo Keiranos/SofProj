@@ -33,7 +33,33 @@ h1{
 	border-radius: 5px 5px 5px 5px;
 }
 
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    height: 125px;
+    width: 125px;
+}
+
 body{
 	background-color: #333533;
-	margin: 0 auto;
+	margin: 0;
+}
+
+p{
+    position: relative;
+    color:#fcee09;
+    text-align: justify;
+    padding: 5%;
+    font-family: Roboto-Light;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.twineButton{
+    padding-left: 35%;
+    display: block;
 }

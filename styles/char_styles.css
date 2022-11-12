@@ -24,16 +24,6 @@ h1{
 }
 
 .header{
-	overflow: auto;
-	width: auto;
-	height: 165px;
-	background-color: #efd34e;
-	position: 0 top;
-	margin: 0 auto;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.header{
 	overflow: hidden;
 	width:auto;
 	height: 165px;
@@ -56,3 +46,10 @@ body{
 	background-color: #333533;
 	margin: 0 auto;
 }
+
+.CleaningRobots{
+	border: 2px solid black;
+	float:left;
+	padding: 40vw;
+}
+
