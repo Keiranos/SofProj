@@ -24,6 +24,16 @@ h1{
 }
 
 .header{
+	overflow: auto;
+	width: auto;
+	height: 165px;
+	background-color: #efd34e;
+	position: 0 top;
+	margin: 0 auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.header{
 	overflow: hidden;
 	width:auto;
 	height: 165px;
@@ -31,6 +41,15 @@ h1{
 	position: 0 top;
 	margin: 0 auto;
 	border-radius: 5px 5px 5px 5px;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    height: 125px;
+    width: 125px;
 }
 
 body{
